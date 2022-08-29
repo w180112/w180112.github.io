@@ -6,6 +6,34 @@
     <description>Recent content in Tags on THE&#39;s notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2022. All rights reserved.</copyright><atom:link href="https://w180112.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2022. All rights reserved.</copyright>
+    <lastBuildDate>Mon, 29 Aug 2022 22:52:17 +0800</lastBuildDate><atom:link href="https://w180112.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Others</title>
+      <link>https://w180112.github.io/tags/others/</link>
+      <pubDate>Mon, 29 Aug 2022 22:52:17 +0800</pubDate>
+      
+      <guid>https://w180112.github.io/tags/others/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kubernetes</title>
+      <link>https://w180112.github.io/tags/kubernetes/</link>
+      <pubDate>Mon, 29 Aug 2022 00:07:16 +0800</pubDate>
+      
+      <guid>https://w180112.github.io/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://w180112.github.io/tags/linux/</link>
+      <pubDate>Mon, 29 Aug 2022 00:07:16 +0800</pubDate>
+      
+      <guid>https://w180112.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

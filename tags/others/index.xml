@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Others on THE&#39;s notes</title>
+    <link>https://w180112.github.io/tags/others/</link>
+    <description>Recent content in Others on THE&#39;s notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2022. All rights reserved.</copyright>
+    <lastBuildDate>Mon, 29 Aug 2022 22:52:17 +0800</lastBuildDate><atom:link href="https://w180112.github.io/tags/others/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用hugo在github上打造個人網頁</title>
+      <link>https://w180112.github.io/post/use-hugo-with-github/</link>
+      <pubDate>Mon, 29 Aug 2022 22:52:17 +0800</pubDate>
+      
+      <guid>https://w180112.github.io/post/use-hugo-with-github/</guid>
+      <description>使用hugo在github上打造個人網頁 前言 之前一直是用wordpress加self host的方式，但後來覺得整個架構變得很麻煩，想說最近很流行直接在github上放自己的網頁就來試試看啦。
+BTW, 本篇文章預設讀者大致知道Unix shell cmd與git操作
+建立一個github repo 主要就repo name得是account加上.github.io
+安裝hugo (使用macOS) brew install hugo 安裝完之後就可以了
+新增自己的個人網站 hugo new site the-note the-note 是我自己取的名字可替換成任意名稱
+選擇主題 hugo 主題上有許多不同的主題可以選擇，選擇Download後會直接跳轉到對應主題的github頁面，直接clone到themes資料夾就好 編譯網站 the@THEs-MacBook-Pro: ~/myblog: hugo server -t hugo-theme-stack --buildDrafts Start building sites … hugo v0.102.0+extended darwin/amd64 BuildDate=unknown WARN 2022/08/29 21:21:08 Search page not found. Create a page with layout: search. WARN 2022/08/29 21:21:08 Archives page not found. Create a page with layout: archives. WARN 2022/08/29 21:21:08 Search page not found.</description>
+    </item>
+    
+  </channel>
+</rss>

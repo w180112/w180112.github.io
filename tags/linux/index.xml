@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on THE&#39;s notes</title>
+    <link>https://w180112.github.io/tags/linux/</link>
+    <description>Recent content in Linux on THE&#39;s notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2022. All rights reserved.</copyright>
+    <lastBuildDate>Mon, 29 Aug 2022 00:07:16 +0800</lastBuildDate><atom:link href="https://w180112.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>K8s device plugin mechanism in kubelet</title>
+      <link>https://w180112.github.io/post/devplugin-in-kubelet/</link>
+      <pubDate>Mon, 29 Aug 2022 00:07:16 +0800</pubDate>
+      
+      <guid>https://w180112.github.io/post/devplugin-in-kubelet/</guid>
+      <description>Device Plugin register options k8s device plugin mechanism allows user to add custom devices to increase pod usage flexiable. We can find many use cases such as SRIOV(Single Root I/O Virtualization) and GPU. This post will introduce about the device plugin in kubelet and what&amp;rsquo;s the procedure to register hardware to kubelet from device plugin.
+DevicePluginServer In device plugin server, it defines gRPC interfaces: // DevicePlugin is the service advertised by Device Plugins service DevicePlugin { // GetDevicePluginOptions returns options to be communicated with Device // Manager rpc GetDevicePluginOptions(Empty) returns (DevicePluginOptions) {} // ListAndWatch returns a stream of List of Devices // Whenever a Device state change or a Device disappears, ListAndWatch // returns the new list rpc ListAndWatch(Empty) returns (stream ListAndWatchResponse) {} // GetPreferredAllocation returns a preferred set of devices to allocate // from a list of available ones.</description>
+    </item>
+    
+  </channel>
+</rss>

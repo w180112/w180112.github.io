@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.102.0" />
 
-  <title>THE&#39;s notes</title>
+  <title>Others &middot; THE&#39;s notes</title>
 
     
 
@@ -44,7 +44,7 @@
  
   
   <link rel="alternate" type="application/rss+xml" title="THE&#39;s notes"
-    href='https://w180112.github.io/index.xml' />
+    href='https://w180112.github.io/tags/others/index.xml' />
   
 
   
@@ -105,7 +105,7 @@
 
     
     <li class="pure-menu-item">
-      <a class="pure-menu-link" href='https://w180112.github.io/index.xml'><i
+      <a class="pure-menu-link" href='https://w180112.github.io/tags/others/index.xml'><i
           class="fas fa-rss fa-fw"></i>RSS</a>
     </li>
     
@@ -209,8 +209,7 @@
 
 
 <div class="header">
-  <h1>THE&#39;s notes</h1>
-  <h2>Note experiences</h2>
+  <h1>Others</h1>
 </div>
 
 <div class="content">
@@ -263,56 +262,6 @@ BTW, 本篇文章預設讀者大致知道Unix shell cmd與git操作
 </article>
 
   
-    <article>
-  <header>
-    <h2><a href="https://w180112.github.io/post/devplugin-in-kubelet/">K8s device plugin mechanism in kubelet</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>29 Aug 2022, 00:07</time>
-  </div>
-
-  
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
-    
-      <a class="post-taxonomy-tag" href="https://w180112.github.io/tags/kubernetes">Kubernetes</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://w180112.github.io/tags/linux">Linux</a>
-    
-  </div>
-  
-  
-
-</div>
-
-  </header>
-
-  <p>
-  Device Plugin register options k8s device plugin mechanism allows user to add custom devices to increase pod usage flexiable. We can find many use cases such as SRIOV(Single Root I/O Virtualization) and GPU. This post will introduce about the device plugin in kubelet and what&rsquo;s the procedure to register hardware to kubelet from device plugin.
-DevicePluginServer In device plugin server, it defines gRPC interfaces: // DevicePlugin is the service advertised by Device Plugins service DevicePlugin { // GetDevicePluginOptions returns options to be communicated with Device // Manager rpc GetDevicePluginOptions(Empty) returns (DevicePluginOptions) {} // ListAndWatch returns a stream of List of Devices // Whenever a Device state change or a Device disappears, ListAndWatch // returns the new list rpc ListAndWatch(Empty) returns (stream ListAndWatchResponse) {} // GetPreferredAllocation returns a preferred set of devices to allocate // from a list of available ones.
-  </p>
-
-  
-  <footer>
-    <a href="https://w180112.github.io/post/devplugin-in-kubelet/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-
-  
-
-
 </div>
 
 </div>
@@ -345,4 +294,3 @@ DevicePluginServer In device plugin server, it defines gRPC interfaces: // Devic
 
 </body>
 </html>
-
