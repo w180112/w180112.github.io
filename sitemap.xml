@@ -4,31 +4,51 @@
   <url>
     <loc>https://w180112.github.io/about/</loc>
     <lastmod>2022-08-29T23:07:16+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://w180112.github.io/tags/others/</loc>
     <lastmod>2022-08-29T22:52:17+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://w180112.github.io/post/</loc>
     <lastmod>2022-08-29T22:52:17+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://w180112.github.io/tags/</loc>
     <lastmod>2022-08-29T22:52:17+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://w180112.github.io/</loc>
     <lastmod>2022-08-29T22:52:17+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://w180112.github.io/post/use-hugo-with-github/</loc>
     <lastmod>2022-08-29T22:52:17+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://w180112.github.io/post/devplugin-in-kubelet/</loc>
     <lastmod>2022-08-29T00:07:16+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://w180112.github.io/tags/kubernetes/</loc>
     <lastmod>2022-08-29T00:07:16+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://w180112.github.io/tags/linux/</loc>
     <lastmod>2022-08-29T00:07:16+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://w180112.github.io/categories/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
